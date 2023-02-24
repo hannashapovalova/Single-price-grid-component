@@ -78,6 +78,7 @@ button {
 .join_block p {
     color: var(--grayish-blue);
 }
+
 .down_container {
     display: flex;
     flex-direction: row;
@@ -108,22 +109,23 @@ button {
     padding: 40px;
 }
 
+@media (max-width: 630px) { 
+    .main_block {
+        margin: 25px;
+    }
 
+    .down_container {
+        flex-direction: column;
+    }
 
+    .subscription_block {
+        width: 100%;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .why_us_block {
+        width: 100%;
+    }
+}
 
 
 /* FOOTER */
